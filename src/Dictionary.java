@@ -3,9 +3,9 @@ import java.util.Scanner;
 import java.util.HashMap;
 
 /**
- * Dictionary simulates a collection of words and their definitions Uses the
- * HashMap class to model the dictionary HashMap is populated from a
- * tab-delimited .txt file
+ * Dictionary simulates a collection of words and their definitions. Uses the
+ * HashMap class to model the dictionary. HashMap is populated from a
+ * tab-delimited .txt file.
  * 
  */
 public class Dictionary {
@@ -21,7 +21,7 @@ public class Dictionary {
 	}
 
 	/**
-	 * This method populates the HashMap dictionary by reading a .txt file
+	 * This method populates the HashMap dictionary by reading a .txt file.
 	 * 
 	 * @throws FileNotFoundException
 	 */
@@ -40,7 +40,7 @@ public class Dictionary {
 
 	/**
 	 * This method searches the dictionary for the word passed in Prints the word,
-	 * definition, and the hash
+	 * definition, and the hash.
 	 * 
 	 * @param key The word to find
 	 */
